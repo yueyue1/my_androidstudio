@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/test02"
+    >
+    <LinearLayout
+        android:id="@+id/Lock"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btnLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tab_lock_normal"
+            android:background="#00000000"
+            android:clickable="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Frd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:id="@+id/btnFrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tab_friend_normal"
+            android:background="#00000000"
+            android:clickable="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Setting"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btnSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tab_setting_normal"
+            android:background="#00000000"
+            android:clickable="false" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
